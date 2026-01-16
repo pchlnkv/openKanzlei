@@ -1,0 +1,27 @@
+{
+  "name": "openkanzlei",
+  "version": "1.0.0",
+  "description": "Open Source Law Firm Software",
+  "homepage": "https://github.com/evgeny-shevtsov/openKanzlei#readme",
+  "bugs": {
+    "url": "https://github.com/evgeny-shevtsov/openKanzlei/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evgeny-shevtsov/openKanzlei.git"
+  },
+  "license": "Apache-2.0",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node start.js",
+    "start:frontend": "npm start --prefix frontend",
+    "start:backend": "npm start --prefix backend",
+    "start:flowable": "cd flowable/tomcat/bin && ./catalina.sh run",
+    "install": "npm install --prefix backend && npm install --prefix frontend"
+  },
+  "dependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

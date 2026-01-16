@@ -1,0 +1,544 @@
+16-Jan-2026 12:26:29.627 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log 3 Spring WebApplicationInitializers detected on classpath
+16-Jan-2026 12:26:34.382 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 12:26:47.817 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 12:26:55.180 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+16-Jan-2026 12:26:59.948 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 12:27:11.415 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable IDM App Servlet'
+16-Jan-2026 12:27:11.712 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Admin App'
+16-Jan-2026 12:27:11.988 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Modeler App Servlet'
+16-Jan-2026 12:27:12.163 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Modeler App API Servlet'
+16-Jan-2026 12:27:12.228 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable IDM App API Servlet'
+16-Jan-2026 12:27:12.508 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+16-Jan-2026 12:27:12.508 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+16-Jan-2026 12:27:12.509 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@62b775b9')
+16-Jan-2026 12:27:36.907 INFORMATION [Thread-17] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable IDM App Servlet'
+16-Jan-2026 12:27:36.914 INFORMATION [Thread-17] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Admin App'
+16-Jan-2026 12:27:36.915 INFORMATION [Thread-17] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Modeler App Servlet'
+16-Jan-2026 12:27:36.916 INFORMATION [Thread-17] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Modeler App API Servlet'
+16-Jan-2026 12:27:36.918 INFORMATION [Thread-17] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable IDM App API Servlet'
+16-Jan-2026 12:27:36.922 INFORMATION [Thread-17] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 12:27:37.507 INFORMATION [Thread-17] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+16-Jan-2026 12:27:37.507 INFORMATION [Thread-17] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+16-Jan-2026 12:27:37.518 INFORMATION [Thread-17] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 12:27:37.550 INFORMATION [Thread-17] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 12:28:12.257 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log 3 Spring WebApplicationInitializers detected on classpath
+16-Jan-2026 12:28:17.456 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 12:28:30.043 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 12:28:35.726 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+16-Jan-2026 12:28:40.778 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 12:28:56.644 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable IDM App Servlet'
+16-Jan-2026 12:28:56.810 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Admin App'
+16-Jan-2026 12:28:57.173 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Modeler App Servlet'
+16-Jan-2026 12:28:57.422 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Modeler App API Servlet'
+16-Jan-2026 12:28:57.513 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable IDM App API Servlet'
+16-Jan-2026 12:28:57.840 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+16-Jan-2026 12:28:57.840 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+16-Jan-2026 12:28:57.842 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@59bb3697')
+16-Jan-2026 12:29:00.526 INFORMATION [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'
+16-Jan-2026 12:31:00.494 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable IDM App Servlet'
+16-Jan-2026 12:31:00.498 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Admin App'
+16-Jan-2026 12:31:00.499 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcherServlet'
+16-Jan-2026 12:31:00.499 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Modeler App Servlet'
+16-Jan-2026 12:31:00.500 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Modeler App API Servlet'
+16-Jan-2026 12:31:00.500 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable IDM App API Servlet'
+16-Jan-2026 12:31:00.504 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 12:31:01.149 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+16-Jan-2026 12:31:01.149 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+16-Jan-2026 12:31:01.169 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 12:31:01.184 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 12:32:55.097 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log 3 Spring WebApplicationInitializers detected on classpath
+16-Jan-2026 12:33:00.137 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 12:33:17.769 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 12:33:24.086 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+16-Jan-2026 12:33:30.001 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 12:33:45.283 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable IDM App Servlet'
+16-Jan-2026 12:33:45.416 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Admin App'
+16-Jan-2026 12:33:45.825 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Modeler App Servlet'
+16-Jan-2026 12:33:46.005 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Modeler App API Servlet'
+16-Jan-2026 12:33:46.075 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable IDM App API Servlet'
+16-Jan-2026 12:33:46.348 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+16-Jan-2026 12:33:46.348 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+16-Jan-2026 12:33:46.349 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@63894750')
+16-Jan-2026 12:33:58.672 INFORMATION [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'
+16-Jan-2026 12:36:12.412 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable IDM App Servlet'
+16-Jan-2026 12:36:12.416 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Admin App'
+16-Jan-2026 12:36:12.417 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcherServlet'
+16-Jan-2026 12:36:12.417 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Modeler App Servlet'
+16-Jan-2026 12:36:12.417 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Modeler App API Servlet'
+16-Jan-2026 12:36:12.418 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable IDM App API Servlet'
+16-Jan-2026 12:36:12.422 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 12:36:12.599 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+16-Jan-2026 12:36:12.600 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+16-Jan-2026 12:36:12.628 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 12:36:12.645 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 12:36:23.547 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log 3 Spring WebApplicationInitializers detected on classpath
+16-Jan-2026 12:36:28.437 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 12:36:43.782 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 12:36:49.526 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+16-Jan-2026 12:36:54.851 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 12:37:07.967 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable IDM App Servlet'
+16-Jan-2026 12:37:08.128 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Admin App'
+16-Jan-2026 12:37:08.497 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Modeler App Servlet'
+16-Jan-2026 12:37:08.754 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Modeler App API Servlet'
+16-Jan-2026 12:37:08.909 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable IDM App API Servlet'
+16-Jan-2026 12:37:09.248 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+16-Jan-2026 12:37:09.248 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+16-Jan-2026 12:37:09.253 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@35eb4664')
+16-Jan-2026 12:37:15.505 INFORMATION [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'
+16-Jan-2026 12:45:37.361 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable IDM App Servlet'
+16-Jan-2026 12:45:37.365 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Admin App'
+16-Jan-2026 12:45:37.366 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcherServlet'
+16-Jan-2026 12:45:37.366 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Modeler App Servlet'
+16-Jan-2026 12:45:37.367 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Modeler App API Servlet'
+16-Jan-2026 12:45:37.367 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable IDM App API Servlet'
+16-Jan-2026 12:45:37.371 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 12:45:38.022 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+16-Jan-2026 12:45:38.022 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+16-Jan-2026 12:45:38.035 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 12:45:38.044 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 12:46:12.995 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log 3 Spring WebApplicationInitializers detected on classpath
+16-Jan-2026 12:46:18.642 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 12:46:37.101 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 12:46:42.642 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+16-Jan-2026 12:46:47.953 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 12:47:01.977 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable IDM App Servlet'
+16-Jan-2026 12:47:02.170 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Admin App'
+16-Jan-2026 12:47:02.648 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Modeler App Servlet'
+16-Jan-2026 12:47:02.972 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Modeler App API Servlet'
+16-Jan-2026 12:47:03.087 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable IDM App API Servlet'
+16-Jan-2026 12:47:03.494 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+16-Jan-2026 12:47:03.494 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+16-Jan-2026 12:47:03.495 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@5689f21c')
+16-Jan-2026 12:47:12.909 INFORMATION [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'
+16-Jan-2026 12:48:05.301 INFORMATION [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable BPMN Rest API'
+16-Jan-2026 12:49:43.443 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable IDM App Servlet'
+16-Jan-2026 12:49:43.447 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable BPMN Rest API'
+16-Jan-2026 12:49:43.449 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Admin App'
+16-Jan-2026 12:49:43.450 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcherServlet'
+16-Jan-2026 12:49:43.451 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Modeler App Servlet'
+16-Jan-2026 12:49:43.452 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Modeler App API Servlet'
+16-Jan-2026 12:49:43.452 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable IDM App API Servlet'
+16-Jan-2026 12:49:43.456 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 12:49:43.617 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+16-Jan-2026 12:49:43.617 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+16-Jan-2026 12:49:43.638 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 12:49:43.648 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 12:49:59.709 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log 3 Spring WebApplicationInitializers detected on classpath
+16-Jan-2026 12:50:04.631 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 12:50:20.329 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 12:50:25.739 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+16-Jan-2026 12:50:31.306 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 12:50:44.410 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable IDM App Servlet'
+16-Jan-2026 12:50:44.610 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Admin App'
+16-Jan-2026 12:50:45.231 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Modeler App Servlet'
+16-Jan-2026 12:50:45.435 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Modeler App API Servlet'
+16-Jan-2026 12:50:45.504 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable IDM App API Servlet'
+16-Jan-2026 12:50:45.812 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+16-Jan-2026 12:50:45.813 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+16-Jan-2026 12:50:45.815 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@264954a8')
+16-Jan-2026 12:50:58.558 INFORMATION [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'
+16-Jan-2026 12:51:49.791 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable IDM App Servlet'
+16-Jan-2026 12:51:49.796 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Admin App'
+16-Jan-2026 12:51:49.797 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcherServlet'
+16-Jan-2026 12:51:49.797 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Modeler App Servlet'
+16-Jan-2026 12:51:49.798 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Modeler App API Servlet'
+16-Jan-2026 12:51:49.798 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable IDM App API Servlet'
+16-Jan-2026 12:51:49.802 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 12:51:50.506 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+16-Jan-2026 12:51:50.506 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+16-Jan-2026 12:51:50.535 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 12:51:50.553 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 12:52:30.698 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log 3 Spring WebApplicationInitializers detected on classpath
+16-Jan-2026 12:52:35.982 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 12:52:51.392 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 12:52:57.087 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+16-Jan-2026 12:53:02.615 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 12:53:21.826 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable IDM App Servlet'
+16-Jan-2026 12:53:22.060 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Admin App'
+16-Jan-2026 12:53:22.538 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Modeler App Servlet'
+16-Jan-2026 12:53:22.787 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Modeler App API Servlet'
+16-Jan-2026 12:53:22.950 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable IDM App API Servlet'
+16-Jan-2026 12:53:23.303 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+16-Jan-2026 12:53:23.303 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+16-Jan-2026 12:53:23.305 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@2857051b')
+16-Jan-2026 12:53:30.043 INFORMATION [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'
+16-Jan-2026 12:56:58.115 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable IDM App Servlet'
+16-Jan-2026 12:56:58.120 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Admin App'
+16-Jan-2026 12:56:58.121 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcherServlet'
+16-Jan-2026 12:56:58.121 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Modeler App Servlet'
+16-Jan-2026 12:56:58.122 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Modeler App API Servlet'
+16-Jan-2026 12:56:58.123 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable IDM App API Servlet'
+16-Jan-2026 12:56:58.127 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 12:56:58.313 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+16-Jan-2026 12:56:58.313 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+16-Jan-2026 12:56:58.332 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 12:56:58.344 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 12:57:07.411 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log 3 Spring WebApplicationInitializers detected on classpath
+16-Jan-2026 12:57:13.993 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 12:57:23.664 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+16-Jan-2026 12:57:29.545 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 12:57:33.369 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+16-Jan-2026 12:57:33.369 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+16-Jan-2026 12:57:33.371 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@5141a75a')
+16-Jan-2026 12:57:41.600 INFORMATION [Thread-3] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+16-Jan-2026 12:57:41.600 INFORMATION [Thread-3] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+16-Jan-2026 12:58:00.970 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log 3 Spring WebApplicationInitializers detected on classpath
+16-Jan-2026 12:58:06.002 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 12:58:21.853 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 12:58:27.348 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+16-Jan-2026 12:58:32.241 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 12:58:47.529 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable IDM App Servlet'
+16-Jan-2026 12:58:47.692 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Admin App'
+16-Jan-2026 12:58:48.138 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Modeler App Servlet'
+16-Jan-2026 12:58:48.421 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Modeler App API Servlet'
+16-Jan-2026 12:58:48.513 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable IDM App API Servlet'
+16-Jan-2026 12:58:48.870 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+16-Jan-2026 12:58:48.870 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+16-Jan-2026 12:58:48.875 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@31ea0918')
+16-Jan-2026 12:58:57.061 INFORMATION [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'
+16-Jan-2026 13:00:01.314 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable IDM App Servlet'
+16-Jan-2026 13:00:01.318 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Admin App'
+16-Jan-2026 13:00:01.319 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcherServlet'
+16-Jan-2026 13:00:01.319 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Modeler App Servlet'
+16-Jan-2026 13:00:01.320 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Modeler App API Servlet'
+16-Jan-2026 13:00:01.321 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable IDM App API Servlet'
+16-Jan-2026 13:00:01.325 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 13:00:01.916 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+16-Jan-2026 13:00:01.916 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+16-Jan-2026 13:00:01.929 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 13:00:01.937 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 13:00:10.017 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log 3 Spring WebApplicationInitializers detected on classpath
+16-Jan-2026 13:00:14.989 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 13:00:28.155 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 13:00:33.632 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+16-Jan-2026 13:00:39.441 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 13:00:53.673 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable IDM App Servlet'
+16-Jan-2026 13:00:53.830 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Admin App'
+16-Jan-2026 13:00:54.171 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Modeler App Servlet'
+16-Jan-2026 13:00:54.421 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Modeler App API Servlet'
+16-Jan-2026 13:00:54.515 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable IDM App API Servlet'
+16-Jan-2026 13:00:54.884 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+16-Jan-2026 13:00:54.884 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+16-Jan-2026 13:00:54.885 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@1f43696d')
+16-Jan-2026 13:00:58.191 INFORMATION [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'
+16-Jan-2026 13:02:46.066 INFORMATION [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'
+16-Jan-2026 13:04:41.149 INFORMATION [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable CMMN Rest API'
+16-Jan-2026 14:32:05.569 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log 3 Spring WebApplicationInitializers detected on classpath
+16-Jan-2026 14:32:10.502 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 14:32:27.047 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 14:32:33.269 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+16-Jan-2026 14:32:38.665 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 14:32:57.583 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable IDM App Servlet'
+16-Jan-2026 14:32:57.783 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Admin App'
+16-Jan-2026 14:32:58.149 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Modeler App Servlet'
+16-Jan-2026 14:32:58.430 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Modeler App API Servlet'
+16-Jan-2026 14:32:58.537 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable IDM App API Servlet'
+16-Jan-2026 14:32:58.981 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+16-Jan-2026 14:32:58.981 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+16-Jan-2026 14:32:58.982 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@6b1c2cf0')
+16-Jan-2026 14:33:55.388 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable IDM App Servlet'
+16-Jan-2026 14:33:55.398 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Admin App'
+16-Jan-2026 14:33:55.406 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Modeler App Servlet'
+16-Jan-2026 14:33:55.408 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Modeler App API Servlet'
+16-Jan-2026 14:33:55.415 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable IDM App API Servlet'
+16-Jan-2026 14:33:55.424 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 14:33:56.488 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+16-Jan-2026 14:33:56.489 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+16-Jan-2026 14:33:56.533 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 14:33:56.552 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 14:34:22.851 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log 3 Spring WebApplicationInitializers detected on classpath
+16-Jan-2026 14:34:28.868 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 14:34:47.608 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 14:34:53.909 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+16-Jan-2026 14:35:00.056 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 14:35:19.711 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable IDM App Servlet'
+16-Jan-2026 14:35:20.049 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Admin App'
+16-Jan-2026 14:35:20.551 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Modeler App Servlet'
+16-Jan-2026 14:35:20.853 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Modeler App API Servlet'
+16-Jan-2026 14:35:20.943 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable IDM App API Servlet'
+16-Jan-2026 14:35:21.459 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+16-Jan-2026 14:35:21.459 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+16-Jan-2026 14:35:21.466 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@69952460')
+16-Jan-2026 14:36:13.444 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable IDM App Servlet'
+16-Jan-2026 14:36:13.450 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Admin App'
+16-Jan-2026 14:36:13.452 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Modeler App Servlet'
+16-Jan-2026 14:36:13.453 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Modeler App API Servlet'
+16-Jan-2026 14:36:13.453 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable IDM App API Servlet'
+16-Jan-2026 14:36:13.463 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 14:36:14.393 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+16-Jan-2026 14:36:14.394 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+16-Jan-2026 14:36:14.424 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 14:36:14.446 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 14:36:58.817 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log 3 Spring WebApplicationInitializers detected on classpath
+16-Jan-2026 14:37:03.756 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 14:37:20.440 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 14:37:26.061 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+16-Jan-2026 14:37:31.194 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 14:37:48.211 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable IDM App Servlet'
+16-Jan-2026 14:37:48.415 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Admin App'
+16-Jan-2026 14:37:48.838 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Modeler App Servlet'
+16-Jan-2026 14:37:49.098 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Modeler App API Servlet'
+16-Jan-2026 14:37:49.219 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable IDM App API Servlet'
+16-Jan-2026 14:37:49.709 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+16-Jan-2026 14:37:49.709 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+16-Jan-2026 14:37:49.711 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@466bcf2e')
+16-Jan-2026 14:40:13.022 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable IDM App Servlet'
+16-Jan-2026 14:40:13.048 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Admin App'
+16-Jan-2026 14:40:13.060 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Modeler App Servlet'
+16-Jan-2026 14:40:13.062 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Modeler App API Servlet'
+16-Jan-2026 14:40:13.076 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable IDM App API Servlet'
+16-Jan-2026 14:40:13.088 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 14:40:13.346 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+16-Jan-2026 14:40:13.346 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+16-Jan-2026 14:40:13.363 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 14:40:13.382 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 14:43:21.653 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log 3 Spring WebApplicationInitializers detected on classpath
+16-Jan-2026 14:43:26.771 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 14:43:44.188 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 14:43:51.509 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+16-Jan-2026 14:43:58.620 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 14:44:14.947 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable IDM App Servlet'
+16-Jan-2026 14:44:15.218 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Admin App'
+16-Jan-2026 14:44:15.991 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Modeler App Servlet'
+16-Jan-2026 14:44:16.320 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Modeler App API Servlet'
+16-Jan-2026 14:44:16.426 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable IDM App API Servlet'
+16-Jan-2026 14:44:16.890 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+16-Jan-2026 14:44:16.890 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+16-Jan-2026 14:44:16.892 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@5d1982c6')
+16-Jan-2026 14:44:29.153 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable IDM App Servlet'
+16-Jan-2026 14:44:29.158 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Admin App'
+16-Jan-2026 14:44:29.162 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Modeler App Servlet'
+16-Jan-2026 14:44:29.164 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Modeler App API Servlet'
+16-Jan-2026 14:44:29.166 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable IDM App API Servlet'
+16-Jan-2026 14:44:29.179 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 14:44:29.947 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+16-Jan-2026 14:44:29.948 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+16-Jan-2026 14:44:29.981 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 14:44:29.995 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 14:50:08.834 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log 3 Spring WebApplicationInitializers detected on classpath
+16-Jan-2026 14:50:13.636 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 14:50:30.216 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 14:50:35.865 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+16-Jan-2026 14:50:41.315 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 14:50:57.881 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable IDM App Servlet'
+16-Jan-2026 14:50:58.098 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Admin App'
+16-Jan-2026 14:50:58.452 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Modeler App Servlet'
+16-Jan-2026 14:50:58.688 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Modeler App API Servlet'
+16-Jan-2026 14:50:58.791 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable IDM App API Servlet'
+16-Jan-2026 14:50:59.203 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+16-Jan-2026 14:50:59.203 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+16-Jan-2026 14:50:59.204 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@349d1a8b')
+16-Jan-2026 14:51:13.061 INFORMATION [http-nio-8080-exec-77] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable CMMN Rest API'
+16-Jan-2026 14:56:08.000 INFORMATION [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'
+16-Jan-2026 14:56:34.418 INFORMATION [http-nio-8080-exec-55] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'
+16-Jan-2026 14:57:37.718 INFORMATION [http-nio-8080-exec-23] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable CMMN Rest API'
+16-Jan-2026 15:02:15.066 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable IDM App Servlet'
+16-Jan-2026 15:02:15.075 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Admin App'
+16-Jan-2026 15:02:15.076 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcherServlet'
+16-Jan-2026 15:02:15.076 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Modeler App Servlet'
+16-Jan-2026 15:02:15.077 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Modeler App API Servlet'
+16-Jan-2026 15:02:15.080 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable IDM App API Servlet'
+16-Jan-2026 15:02:15.081 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable CMMN Rest API'
+16-Jan-2026 15:02:15.088 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 15:02:15.690 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+16-Jan-2026 15:02:15.690 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+16-Jan-2026 15:02:15.712 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcherServlet'
+16-Jan-2026 15:02:15.712 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable CMMN Rest API'
+16-Jan-2026 15:02:15.722 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 15:02:15.738 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 15:02:38.660 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log 3 Spring WebApplicationInitializers detected on classpath
+16-Jan-2026 15:02:48.399 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 15:03:12.432 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 15:03:20.258 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+16-Jan-2026 15:03:28.403 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 15:03:47.368 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable IDM App Servlet'
+16-Jan-2026 15:03:47.634 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Admin App'
+16-Jan-2026 15:03:48.053 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Modeler App Servlet'
+16-Jan-2026 15:03:48.416 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Modeler App API Servlet'
+16-Jan-2026 15:03:48.513 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable IDM App API Servlet'
+16-Jan-2026 15:03:48.902 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+16-Jan-2026 15:03:48.902 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+16-Jan-2026 15:03:48.903 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@60d5b96')
+16-Jan-2026 15:03:56.762 INFORMATION [http-nio-8080-exec-25] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable CMMN Rest API'
+16-Jan-2026 15:04:22.228 INFORMATION [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'
+16-Jan-2026 15:07:13.160 INFORMATION [http-nio-8080-exec-30] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable BPMN Rest API'
+16-Jan-2026 15:07:15.104 INFORMATION [http-nio-8080-exec-36] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable CMMN Rest API'
+16-Jan-2026 15:07:22.762 INFORMATION [http-nio-8080-exec-51] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable App Rest API'
+16-Jan-2026 15:07:24.988 INFORMATION [http-nio-8080-exec-19] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Form Rest API'
+16-Jan-2026 15:07:27.427 INFORMATION [http-nio-8080-exec-104] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable DMN Rest API'
+16-Jan-2026 15:07:42.201 INFORMATION [http-nio-8080-exec-58] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'
+16-Jan-2026 15:09:00.202 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable IDM App Servlet'
+16-Jan-2026 15:09:00.219 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable BPMN Rest API'
+16-Jan-2026 15:09:00.220 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Admin App'
+16-Jan-2026 15:09:00.223 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcherServlet'
+16-Jan-2026 15:09:00.223 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable App Rest API'
+16-Jan-2026 15:09:00.224 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Modeler App Servlet'
+16-Jan-2026 15:09:00.227 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Modeler App API Servlet'
+16-Jan-2026 15:09:00.228 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable IDM App API Servlet'
+16-Jan-2026 15:09:00.228 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Form Rest API'
+16-Jan-2026 15:09:00.229 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable CMMN Rest API'
+16-Jan-2026 15:09:00.230 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable DMN Rest API'
+16-Jan-2026 15:09:00.235 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 15:09:00.880 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+16-Jan-2026 15:09:00.880 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+16-Jan-2026 15:09:00.899 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcherServlet'
+16-Jan-2026 15:09:00.899 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable CMMN Rest API'
+16-Jan-2026 15:09:00.909 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 15:09:00.921 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 15:09:13.129 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log 3 Spring WebApplicationInitializers detected on classpath
+16-Jan-2026 15:09:19.151 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 15:09:38.337 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 15:09:44.217 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+16-Jan-2026 15:09:49.807 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 15:10:06.955 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable IDM App Servlet'
+16-Jan-2026 15:10:07.164 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Admin App'
+16-Jan-2026 15:10:07.641 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Modeler App Servlet'
+16-Jan-2026 15:10:07.905 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Modeler App API Servlet'
+16-Jan-2026 15:10:08.017 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable IDM App API Servlet'
+16-Jan-2026 15:10:08.483 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+16-Jan-2026 15:10:08.483 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+16-Jan-2026 15:10:08.485 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@8053ec6')
+16-Jan-2026 15:10:16.607 INFORMATION [http-nio-8080-exec-74] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'
+16-Jan-2026 15:10:24.493 INFORMATION [http-nio-8080-exec-82] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable CMMN Rest API'
+16-Jan-2026 15:10:25.354 INFORMATION [http-nio-8080-exec-82] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'
+16-Jan-2026 15:12:01.876 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable IDM App Servlet'
+16-Jan-2026 15:12:01.880 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Admin App'
+16-Jan-2026 15:12:01.882 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcherServlet'
+16-Jan-2026 15:12:01.882 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Modeler App Servlet'
+16-Jan-2026 15:12:01.883 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Modeler App API Servlet'
+16-Jan-2026 15:12:01.884 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable IDM App API Servlet'
+16-Jan-2026 15:12:01.885 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable CMMN Rest API'
+16-Jan-2026 15:12:01.894 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 15:12:02.148 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+16-Jan-2026 15:12:02.148 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+16-Jan-2026 15:12:02.159 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcherServlet'
+16-Jan-2026 15:12:02.163 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 15:12:02.176 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 15:15:02.168 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log 3 Spring WebApplicationInitializers detected on classpath
+16-Jan-2026 15:15:06.392 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 15:15:21.310 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 15:15:28.143 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+16-Jan-2026 15:15:38.744 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 15:15:59.045 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable IDM App Servlet'
+16-Jan-2026 15:15:59.173 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Admin App'
+16-Jan-2026 15:15:59.450 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Modeler App Servlet'
+16-Jan-2026 15:15:59.635 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Modeler App API Servlet'
+16-Jan-2026 15:15:59.714 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable IDM App API Servlet'
+16-Jan-2026 15:16:00.008 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+16-Jan-2026 15:16:00.008 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+16-Jan-2026 15:16:00.009 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@265f3dce')
+16-Jan-2026 15:16:00.217 INFORMATION [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable CMMN Rest API'
+16-Jan-2026 15:17:30.686 INFORMATION [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'
+16-Jan-2026 15:19:41.380 INFORMATION [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable BPMN Rest API'
+16-Jan-2026 15:21:45.446 INFORMATION [http-nio-8080-exec-11] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable DMN Rest API'
+16-Jan-2026 15:21:45.454 INFORMATION [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Form Rest API'
+16-Jan-2026 15:22:55.047 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable IDM App Servlet'
+16-Jan-2026 15:22:55.051 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable BPMN Rest API'
+16-Jan-2026 15:22:55.052 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Admin App'
+16-Jan-2026 15:22:55.054 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcherServlet'
+16-Jan-2026 15:22:55.055 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Modeler App Servlet'
+16-Jan-2026 15:22:55.056 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Modeler App API Servlet'
+16-Jan-2026 15:22:55.057 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable IDM App API Servlet'
+16-Jan-2026 15:22:55.058 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Form Rest API'
+16-Jan-2026 15:22:55.059 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable CMMN Rest API'
+16-Jan-2026 15:22:55.060 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable DMN Rest API'
+16-Jan-2026 15:22:55.063 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 15:22:55.577 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+16-Jan-2026 15:22:55.578 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+16-Jan-2026 15:22:55.595 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 15:22:55.606 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 15:24:24.566 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log 3 Spring WebApplicationInitializers detected on classpath
+16-Jan-2026 15:24:30.609 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 15:24:46.261 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 15:24:51.812 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+16-Jan-2026 15:24:57.162 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 15:25:10.338 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable IDM App Servlet'
+16-Jan-2026 15:25:10.577 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Admin App'
+16-Jan-2026 15:25:10.982 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Modeler App Servlet'
+16-Jan-2026 15:25:11.211 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Modeler App API Servlet'
+16-Jan-2026 15:25:11.298 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable IDM App API Servlet'
+16-Jan-2026 15:25:11.644 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+16-Jan-2026 15:25:11.645 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+16-Jan-2026 15:25:11.647 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@63fedce4')
+16-Jan-2026 15:25:15.618 INFORMATION [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'
+16-Jan-2026 15:26:00.870 INFORMATION [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable CMMN Rest API'
+16-Jan-2026 15:26:38.541 INFORMATION [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable BPMN Rest API'
+16-Jan-2026 15:27:21.822 INFORMATION [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable CMMN Rest API'
+16-Jan-2026 15:27:22.701 INFORMATION [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'
+16-Jan-2026 15:29:17.328 INFORMATION [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable DMN Rest API'
+16-Jan-2026 15:29:17.369 INFORMATION [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Form Rest API'
+16-Jan-2026 15:29:34.142 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable IDM App Servlet'
+16-Jan-2026 15:29:34.145 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable BPMN Rest API'
+16-Jan-2026 15:29:34.147 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Admin App'
+16-Jan-2026 15:29:34.148 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcherServlet'
+16-Jan-2026 15:29:34.148 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Modeler App Servlet'
+16-Jan-2026 15:29:34.150 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Modeler App API Servlet'
+16-Jan-2026 15:29:34.150 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable IDM App API Servlet'
+16-Jan-2026 15:29:34.151 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Form Rest API'
+16-Jan-2026 15:29:34.152 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable CMMN Rest API'
+16-Jan-2026 15:29:34.153 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable DMN Rest API'
+16-Jan-2026 15:29:34.157 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 15:29:34.770 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+16-Jan-2026 15:29:34.771 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+16-Jan-2026 15:29:34.784 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcherServlet'
+16-Jan-2026 15:29:34.784 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable CMMN Rest API'
+16-Jan-2026 15:29:34.794 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 15:29:34.803 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 16:30:38.856 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log 3 Spring WebApplicationInitializers detected on classpath
+16-Jan-2026 16:30:43.252 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 16:30:56.852 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 16:31:02.389 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+16-Jan-2026 16:31:07.361 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 16:31:22.168 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable IDM App Servlet'
+16-Jan-2026 16:31:22.319 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Admin App'
+16-Jan-2026 16:31:22.687 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Modeler App Servlet'
+16-Jan-2026 16:31:22.931 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Modeler App API Servlet'
+16-Jan-2026 16:31:23.015 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable IDM App API Servlet'
+16-Jan-2026 16:31:23.359 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+16-Jan-2026 16:31:23.359 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+16-Jan-2026 16:31:23.361 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@429ffbed')
+16-Jan-2026 16:31:30.204 INFORMATION [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable CMMN Rest API'
+16-Jan-2026 16:33:44.572 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable IDM App Servlet'
+16-Jan-2026 16:33:44.575 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Admin App'
+16-Jan-2026 16:33:44.577 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Modeler App Servlet'
+16-Jan-2026 16:33:44.577 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Modeler App API Servlet'
+16-Jan-2026 16:33:44.578 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable IDM App API Servlet'
+16-Jan-2026 16:33:44.579 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable CMMN Rest API'
+16-Jan-2026 16:33:44.586 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 16:33:45.254 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+16-Jan-2026 16:33:45.254 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+16-Jan-2026 16:33:45.267 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 16:33:45.274 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 16:34:17.510 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log 3 Spring WebApplicationInitializers detected on classpath
+16-Jan-2026 16:34:22.441 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 16:35:09.209 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log 3 Spring WebApplicationInitializers detected on classpath
+16-Jan-2026 16:35:14.622 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 16:35:31.333 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 16:35:36.727 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+16-Jan-2026 16:35:42.102 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+16-Jan-2026 16:36:00.724 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable IDM App Servlet'
+16-Jan-2026 16:36:00.910 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Admin App'
+16-Jan-2026 16:36:01.271 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Modeler App Servlet'
+16-Jan-2026 16:36:01.569 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Modeler App API Servlet'
+16-Jan-2026 16:36:01.673 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable IDM App API Servlet'
+16-Jan-2026 16:36:02.039 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+16-Jan-2026 16:36:02.039 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+16-Jan-2026 16:36:02.041 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@3855207f')
+16-Jan-2026 16:36:34.997 INFORMATION [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable CMMN Rest API'
+16-Jan-2026 16:49:23.387 INFORMATION [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'
+16-Jan-2026 16:49:31.602 INFORMATION [http-nio-8080-exec-11] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable DMN Rest API'
+16-Jan-2026 16:49:31.605 INFORMATION [http-nio-8080-exec-12] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'Flowable Form Rest API'
+16-Jan-2026 16:55:34.639 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable IDM App Servlet'
+16-Jan-2026 16:55:34.642 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Admin App'
+16-Jan-2026 16:55:34.644 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcherServlet'
+16-Jan-2026 16:55:34.644 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Modeler App Servlet'
+16-Jan-2026 16:55:34.645 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Modeler App API Servlet'
+16-Jan-2026 16:55:34.646 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable IDM App API Servlet'
+16-Jan-2026 16:55:34.647 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable Form Rest API'
+16-Jan-2026 16:55:34.648 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable CMMN Rest API'
+16-Jan-2026 16:55:34.649 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'Flowable DMN Rest API'
+16-Jan-2026 16:55:34.652 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 16:55:35.297 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+16-Jan-2026 16:55:35.297 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+16-Jan-2026 16:55:35.312 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+16-Jan-2026 16:55:35.324 INFORMATION [Thread-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
