@@ -60,8 +60,13 @@ export async function mapAufgaben(planItemInstances){
           faelligkeit: faelligkeit
         }
 
-        if(aufgabeStatus === "bevorstehend") bevorstehend.push(card);
-        else nichtAngefangen.push(card);
+        if(aufgabeStatus === "nichtAngefangen") nichtAngefangen.push(card);
+        else if(aufgabeStatus === "bevorstehend") bevorstehend.push(card);
+        else if(aufgabeStatus === "heuteFaellig") heuteFaellig.push(card);
+        else if(aufgabeStatus === "waAntwort") waAntwort.push(card);
+        else if(aufgabeStatus === "erledigt") erledigt.push(card);
+
+        console.log(faelligkeit);
     }
     return [
         {key: "nichtAngefangen", cards: nichtAngefangen},

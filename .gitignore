@@ -13,6 +13,7 @@ yarn.lock
 logs/
 
 /flowable/tomcat/webapps/flowable/
+/flowable/tomcat/flowable-db/engine-db.trace.db
 
 # misc
 .eslintcache
