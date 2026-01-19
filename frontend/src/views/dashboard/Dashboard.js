@@ -62,41 +62,28 @@ import WidgetsDropdown from '../widgets/WidgetsDropdown'
 import MainChart from './MainChart'
 
 const Dashboard = () => {
+  const SERVER_BACKEND = import.meta.env.VITE_BACKEND_SERVER_URL;
   const [activeCases, setActiveCases] = useState(0);
   const [totalCases, setTotalCases] = useState(0);
-  const [caseItems, setCaseItems] = useState([]);
 
   useEffect(() => {
-    fetch("http://87.106.4.236:3001/api/cmmn-api/cmmn-history/historic-case-instances")
+    fetch(`${SERVER_BACKEND}/api/cmmn-api/cmmn-history/historic-case-instances`)
     .then(res => res.json())
     .then(data => {
       if(!data.data || data.data.length === 0){
         return;
       }
-
       let casesCount = 0;
       let activeCasesCount = 0;
-      const items = [];
 
       data.data.forEach(caseInstance => {
         casesCount++;
         if(caseInstance.state === "active"){
           activeCasesCount++;
         }
-        const creationDate = new Date(caseInstance.startTime);
-        
-        items.push({
-          id: casesCount,
-          internalId: caseInstance.id,
-          name: caseInstance.name,
-          createdBy: caseInstance.startUserId,
-          createdOn: creationDate.toLocaleDateString('de-DE'),
-          state: caseInstance.state,
-        });
       });
       setActiveCases(activeCasesCount);
       setTotalCases(casesCount);
-      setCaseItems(items);
     })
   }, []);
   
@@ -127,31 +114,6 @@ const Dashboard = () => {
                     value={totalCases}
                     progress={{ color: 'primary', value: 100}}
                   />
-                </CCol>
-              </CRow>
-              <CRow>
-                <CCol xs={12}>
-                  <CAccordion>
-                    {caseItems.map(c => (
-                    <CAccordionItem key={c.id} itemKey={c.id} style={c.state === "terminated" ? { color: "#b8b8b8"} : {}}>
-                      <CAccordionHeader>{c.name}</CAccordionHeader>
-                      <CAccordionBody>
-                        <p>Akte erstellt am: {c.createdOn}<br></br>von: {c.createdBy}</p>              
-                        {c.state !== "terminated" && (
-                          <>
-                          <CButton color="primary" style={{marginRight: 5}}>Akte verwalten</CButton>
-                          <CButton color="danger">Akte beenden</CButton>
-                          </>
-                        )}
-                      </CAccordionBody>
-                    </CAccordionItem>
-                    ))}
-                  </CAccordion>
-                </CCol>
-              </CRow>
-              <CRow style={{marginTop: 15}}>
-                <CCol xs={2}>
-                  <CButton color="primary">Akte erstellen</CButton>
                 </CCol>
               </CRow>
             </CCardBody>

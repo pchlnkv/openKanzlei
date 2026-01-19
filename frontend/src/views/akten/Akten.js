@@ -255,9 +255,9 @@ const Akten = () => {
                                     <CCol xs={12} md={6} lg={4} xxl={3} key={c.id} style={{marginBottom: 10}}>
                                         <CCard>
                                             <CCardBody>
-                                                <CCardTitle>{c.name}</CCardTitle>                             
+                                                <CCardTitle className="text-body">{c.name}</CCardTitle>                             
                                                 <CCardSubtitle className="mb-2 text-body-secondary">erstellt am {c.createdOn}</CCardSubtitle>   
-                                                <CCardLink href="//#" onClick={() => {setModalVisible(true); setSelectedCase(c)}}>Akte verwalten</CCardLink>
+                                                <CCardLink href="//#" onClick={(e) => {setModalVisible(true); setSelectedCase(c); e.preventDefault();}}>Akte verwalten</CCardLink>
                                             </CCardBody>
                                         </CCard>
                                     </CCol>

@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 const SERVER_BACKEND = import.meta.env.VITE_BACKEND_SERVER_URL;
 
-export async function mapAufgaben(caseInstances){
+export async function mapAufgaben(planItemInstances){
     const nichtAngefangen = [];
     const bevorstehend = [];
     const heuteFaellig = [];
@@ -11,9 +11,9 @@ export async function mapAufgaben(caseInstances){
     let casesCount = 0;
     let activeCases = 0;
 
-    for(const caseInstance of caseInstances) {
+    for(const planItemInstance of planItemInstances) {
         casesCount++;
-        const creationDate = new Date(caseInstance.createTime);
+        const creationDate = new Date(planItemInstance.createTime);
     //    const caseState = caseInstance.variables.find(v => v.name === "caseStatus")?.value;
 
         const getState = async () => {
@@ -23,28 +23,40 @@ export async function mapAufgaben(caseInstances){
                     "Content-Type": "application/json",
                 },
                 body: JSON.stringify({
-                    planItemInstanceId: caseInstance.id
+                    planItemInstanceId: planItemInstance.id
                 })
             }) 
             const asjson = await aStateResp.json();
-            console.log(caseInstance.id);
-            console.log(asjson.data.find(item => item.variable.name === "aufgabeStatus")?.variable.value);
+
             const aufgabeStatus = asjson.data.find(item => item.variable.name === "aufgabeStatus")?.variable.value;
             const faelligkeit = asjson.data.find(item => item.variable.name === "faelligkeit")?.variable.value;
             return { aufgabeStatus, faelligkeit }
         }
+
+        const getCaseName = async() => {
+            const cResp = await fetch(`${SERVER_BACKEND}/api/cmmn-api/cmmn-runtime/plan-item-instances/${planItemInstance.id}`);
+            const cjson = await cResp.json();
+
+            const cNResp = await fetch(`${SERVER_BACKEND}/api/cmmn-api/cmmn-runtime/case-instances/${cjson.caseInstanceId}`)
+            const cNjson = await cNResp.json();
+
+            const caseName = cNjson.name;
+            const caseId = cNjson.id;
+            return { caseId, caseName };
+        }
         
         const { aufgabeStatus, faelligkeit } = await getState();
-        console.log(aufgabeStatus);
+        const { caseId, caseName } = await getCaseName();
       // const aufgabeStatus = "bevorstehend"
 
         const card = {
           id: casesCount,
-          internalId: caseInstance.id,
-          name: caseInstance.name,
+          internalId: planItemInstance.id,
+          name: planItemInstance.name,
           createdOn: creationDate.toLocaleDateString('de-DE'),
           state: aufgabeStatus,
-          case: "TestAkte",
+          case: caseName,
+          caseId: caseId,
           faelligkeit: faelligkeit
         }
 

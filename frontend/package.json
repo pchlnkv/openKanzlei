@@ -16,7 +16,7 @@
     "build": "vite build",
     "lint": "eslint",
     "serve": "vite preview",
-    "start": "vite"
+    "start": "vite --host"
   },
   "dependencies": {
     "@coreui/chartjs": "^4.1.0",
@@ -30,6 +30,7 @@
     "chart.js": "^4.5.1",
     "classnames": "^2.5.1",
     "core-js": "^3.47.0",
+    "openkanzlei": "file:..",
     "prop-types": "^15.8.1",
     "react": "^19.2.3",
     "react-datepicker": "^9.1.0",

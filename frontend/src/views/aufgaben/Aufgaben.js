@@ -167,7 +167,7 @@ const Aufgaben = () => {
           ),
         }); 
 
-       if(response.status !== 200 || varResponse.status !== 200){
+       if(!response.ok || !varResponse.ok){
         throw new Error(
             response.status
         );
@@ -243,8 +243,8 @@ return (
                     <CCol xs={12} md={6} lg={4} xxl={3} style={{marginBottom: 10}} key={a.id}>
                     <CCard textColor="#000" className="mb-3 border-secondary">
                         <CCardBody>
-                          <CCardTitle href="/#"><CCardLink className="text-black" href="//#">{a.name}</CCardLink></CCardTitle>                             
-                          <CCardSubtitle className="mb-2 text-body-secondary"><CCardLink className="text-secondary" href="//#">Akte {a.case}</CCardLink></CCardSubtitle>  
+                          <CCardTitle><CCardLink className="text-body" href="//#" onClick={(e) => e.preventDefault()}>{a.name}</CCardLink></CCardTitle>                             
+                          <CCardSubtitle className="mb-2 text-body-secondary"><CCardLink className="text-secondary" href="//#" onClick={(e) => e.preventDefault()}>Akte {a.case}</CCardLink></CCardSubtitle>  
                           <CCardText>zugewiesen zu Name Nachname</CCardText>
                           <CCardText><CCardText className="text-body-secondary">letzte Notiz: </CCardText>Mandant sammelt Dokumente etc.</CCardText>
                           <CCardFooter>
