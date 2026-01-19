@@ -7,7 +7,9 @@ Eine Open-Source Kanzleisoftware
 - Node.JS 24+
 
 ### Docker
-*kommt bald*
+``` bash
+docker run -d -p 3000:3000 -p 3001:3001 pchlnkv/openkanzlei
+```
 
 ### Manuelle Ausführung
 ``` bash
