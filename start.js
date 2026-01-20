@@ -60,6 +60,7 @@ const startFlowable = () => {
 }
 
 function main() {
+    //Prüfen, ob Java installiert ist
     if(!javaInstalled) {
         console.error("Java-Installation fehlt. Bitte JDK 17+ installieren!")
         process.exit(1);
