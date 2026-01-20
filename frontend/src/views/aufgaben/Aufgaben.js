@@ -93,7 +93,9 @@ const Aufgaben = () => {
   const [loading, setLoading] = useState(false);
 
   const [aufgabeCreationModal, setAufgabeCreationModal] = useState(false);
-  const [aCForm, setaCForm] = useState([]);
+  const [aCForm, setaCForm] = useState({
+    faelligkeitCheck: { value: '', checked: false }
+  });
 
   const [startDate, setStartDate] = useState(new Date());
 
@@ -101,15 +103,18 @@ const Aufgaben = () => {
 
   const [toast, setToast] = useState(null);
 
+  const [aufgabeModal, setAufgabeModal] = useState(false);
+
   const CFormInputWithMask = IMaskMixin(({ inputRef, ...props }) => (
     <CFormInput {...props} ref={inputRef} />
   ))
 
   const onChange = (e) => {
-      const { name, value } = e.target;
-      setaCForm((prev) => ({...prev, [name]: value}))
+      const { name, value, checked } = e.target;
+      setaCForm((prev) => ({...prev, [name]: { value, checked }}))
       console.log(name);
       console.log(value);
+      console.log(checked);
   }
 
   const toaster = useMemo(
@@ -135,7 +140,7 @@ const Aufgaben = () => {
     if(loading) return;
     setLoading(true);
     try{
-      const selectedInternalId = aufgabenTypes.find(i => i.key === Number(aCForm.aufgabe))?.internalId;
+      const selectedInternalId = aufgabenTypes.find(i => i.key === Number(aCForm.aufgabe.value))?.internalId;
       const response = await fetch(`${SERVER_BACKEND}/api/cmmn-api/cmmn-runtime/plan-item-instances/${selectedInternalId}`,{
           method: "PUT",
           headers: {
@@ -145,6 +150,8 @@ const Aufgaben = () => {
             action: "start"
           }),
         });   
+
+        const dateValue = aCForm.faelligkeitCheck.checked ? startDate.toLocaleDateString('de-DE') : null;
         
       const varResponse = await fetch(`${SERVER_BACKEND}/api/cmmn-api/cmmn-runtime/plan-item-instances/${selectedInternalId}/variables`,{
           method: "POST",
@@ -161,7 +168,7 @@ const Aufgaben = () => {
               {
                 name: "faelligkeit",
                 type: "string",
-                value: "31.12.2026"
+                value: dateValue
               }
             ]
           ),
@@ -209,6 +216,65 @@ const Aufgaben = () => {
     } 
   }
 
+  const [selectedAufgabeState, setSelectedAufgabeState] = useState("");
+  const updateAufgabeStatus = async({planItemId, state}) => {
+    setLoading(true);
+    try{
+      const response = await fetch(`${SERVER_BACKEND}/api/cmmn-api/cmmn-runtime/plan-item-instances/${planItemId}/variables`,{
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(
+            [
+              {
+                name: "aufgabeStatus",
+                type: "string",
+                value: state
+              }
+            ]
+          ),
+        }); 
+
+        if(!response.ok){
+          throw new Error(
+            response.status
+          );
+        }
+        showToast({
+          message: "Aufgabe wurde erfolgreich aktualisiert.",
+          color: "secondary"
+        })
+        setAufgabeModal(false);
+    } catch(error) {
+      showToast({
+        message: "Ein Fehler ist aufgetreten.",
+        color: "danger"
+      })
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  const [unteraufgaben, setUnteraufgaben] = useState([]);
+  const [selectedAufgabe, setSelectedAufgabe] = useState([]);
+  const getUnteraufgaben = async ({planItemId}) => {
+    try {
+      let key = 0;
+      const response = await fetch(`${SERVER_BACKEND}/api/cmmn-api/cmmn-runtime/plan-item-instances?planItemDefinitionType=task&stageInstanceId=${planItemId}`)
+      const json = await response.json();
+      const items = [];
+      json.data.forEach(aufgabe => {
+        key++;
+        items.push({key: key, internalId: aufgabe.id, name: aufgabe.name})
+      })
+      setUnteraufgaben(items);
+      setAufgabeModal(true);
+    } catch (error) {
+      console.error(error)
+    }
+  }
+
   useEffect(() => {
     if(aufgabenLoading) return;
     refreshCases();
@@ -232,7 +298,7 @@ return (
               <CTab itemKey="nichtAngefangen">nicht angefangen</CTab>
               <CTab itemKey="bevorstehend">bevorstehend</CTab>
               <CTab itemKey="heuteFaellig">heute fällig</CTab>
-              <CTab itemKey="warteAufAntwort">warte auf Antwort</CTab>
+              <CTab itemKey="waAntwort">warte auf Antwort</CTab>
               <CTab itemKey="erledigt">erledigt</CTab>
             </CTabList>
             <CTabContent className="bg-body border border-top-0 p-3 rounded-bottom">
@@ -243,13 +309,15 @@ return (
                     <CCol xs={12} md={6} lg={4} xxl={3} style={{marginBottom: 10}} key={a.id}>
                     <CCard textColor="#000" className="mb-3 border-secondary">
                         <CCardBody>
-                          <CCardTitle><CCardLink className="text-body" href="//#" onClick={(e) => e.preventDefault()}>{a.name}</CCardLink></CCardTitle>                             
+                          <CCardTitle><CCardLink className="text-body" href="//#"                         
+                            onClick={(e) => {e.preventDefault();  
+                            getUnteraufgaben({planItemId: a.internalId}); 
+                            setSelectedAufgabe({id: a.internalId, name: a.name, caseName: a.case, state: a.state, createdOn: a.createdOn}); setSelectedAufgabeState(a.state);}}
+                            >{a.name}</CCardLink></CCardTitle>                             
                           <CCardSubtitle className="mb-2 text-body-secondary"><CCardLink className="text-secondary" href="//#" onClick={(e) => e.preventDefault()}>Akte {a.case}</CCardLink></CCardSubtitle>  
                           <CCardText>zugewiesen zu Name Nachname</CCardText>
                           <CCardText><CCardText className="text-body-secondary">letzte Notiz: </CCardText>Mandant sammelt Dokumente etc.</CCardText>
-                          <CCardFooter>
-                            <CCardText>fällig am: {a.faelligkeit}</CCardText>
-                          </CCardFooter>
+                            { a.faelligkeit != undefined && <CCardFooter><CCardText>fällig am: {a.faelligkeit}</CCardText></CCardFooter>}
                         </CCardBody>
                     </CCard>
                   </CCol>
@@ -270,7 +338,7 @@ return (
         </CModalHeader>
         <CModalBody>
           <CForm onSubmit={cAFormSubmit}>
-            <CFormSelect label="Akte auswählen" name="akte" className="mb-3" onChange={(e) => {onChange; updateAufgabenTypes(e);}}>
+            <CFormSelect label="Akte auswählen" name="akte" className="mb-3" onChange={(e) => {onChange(e); updateAufgabenTypes(e);}}>
               <option value="">Akte auswählen</option>
               {cases.find(item => item.key === "aktiv")?.cards.map(card => (
                 <option key={card.id} value={card.internalId}>{card.name}</option>
@@ -289,14 +357,14 @@ return (
                 <CFormCheck 
                   value="" 
                   name="faelligkeitCheck" 
-                  onChange={(e) => {setFaelligekeitsDatum(e.target.checked); onChange;}}
+                  onChange={(e) => {setFaelligekeitsDatum(e.target.checked); onChange(e);}}
                   checked={faelligkeitsDatum} 
                   style={{marginRight: 10}}/>
                 <DatePicker 
                   name="faelligkeitDate"
                   selected={startDate} 
                   startDate={startDate} 
-                  onChange={(date) => {setStartDate(date); onChange;}} 
+                  onChange={(date) => {setStartDate(date)}} 
                   locale="de" dateFormat="dd.MM.YYYY" 
                   customInput={<CFormInput label="Fälligkeitsdatum"/>}
                   className="mb-3"
@@ -309,6 +377,40 @@ return (
             </CModalFooter>
           </CForm>
         </CModalBody>
+      </CModal>
+
+      <CModal size="lg" alignment="center" visible={aufgabeModal} onClose={() => setAufgabeModal(false)}>
+        <CModalHeader>
+          <CModalTitle>Aufgabe verwalten</CModalTitle>
+        </CModalHeader>
+        <CModalBody>
+          <h3>{selectedAufgabe.name}</h3>
+          <CCardSubtitle className="text-body-secondary" style={{marginTop: -10}}>erstellt am {selectedAufgabe.createdOn}</CCardSubtitle>
+          <br/>
+          <h6>Status: {selectedAufgabe.state}</h6>
+          <br/>
+          <CRow className="mb-3">
+            <CCol xs={10}>
+              {unteraufgaben.map(ua => (
+                <CButton color="primary" className="m-1">{ua.name}</CButton>               
+              ))}
+
+            </CCol>
+          </CRow>
+          <CFormSelect label="Status ändern" name="status" className="mb-3" onChange={(e) => setSelectedAufgabeState(e.target.value)} value={selectedAufgabeState}>
+            <option value="nichtAngefangen">nicht Angefangen</option>
+            <option>bevorstehend</option>
+            <option value="heuteFaellig">heute fällig</option>
+            <option value="waAntwort">warte auf Antwort</option>
+            <option>erledigt</option>
+          </CFormSelect>
+        </CModalBody>
+        <CModalFooter>
+          <CButton color="danger" disabled={loading}>Aufgabe löschen</CButton>
+          <div className="ms-auto">
+              <CButton color="primary" onClick={() => updateAufgabeStatus({planItemId: selectedAufgabe.id, state: selectedAufgabeState})} disabled={loading}>Speichern</CButton>                            
+          </div>
+        </CModalFooter>
       </CModal>
     </>
   )
