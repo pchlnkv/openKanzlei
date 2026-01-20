@@ -8,7 +8,7 @@ Eine Open-Source Kanzleisoftware
 
 ### Docker
 ``` bash
-docker run -d -p 3000:3000 -p 3001:3001 pchlnkv/openkanzlei
+docker run -d -p 3000:3000 -p 3001:3001 openkanzlei/openkanzlei
 ```
 
 ### Manuelle Ausführung
